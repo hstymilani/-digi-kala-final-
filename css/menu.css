@@ -1,0 +1,235 @@
+main>div.menu{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    box-shadow: 0px 1px 0px rgb(210, 210, 210);
+    position: sticky;
+    top: 65px;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+main>div.menu>div.city{
+    width: 15%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+}
+main>div.menu>div.city>div.selectcity{
+    width: 158px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(28, 0, 74, 0.862);
+    position: absolute;
+    bottom: -38px;
+    padding: 0px 5px;
+    left: 40px;
+    display: none;
+}
+main>div.menu>div.city:hover>div.selectcity{
+    display: block;
+}
+main>div.menu>div.city>div.selectcity>span{
+    color: whitesmoke;
+    font-size: 13px;
+}
+main>div.menu>div.city>i{
+    margin-left: 8px;
+}
+main>div.menu>div.mainMenu{
+    width: 82%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    line-height: 40px;
+    font-size: 15px;
+    margin-left: 22px;
+}
+main>div.menu>div.mainMenu>nav{
+    width: 100%;
+    height: inherit;
+}
+main>div.menu>div.mainMenu>nav>ul{
+    width: inherit;
+    height: inherit;
+    direction: rtl;
+}
+main>div.menu>div.mainMenu>nav>ul>li{
+    display: inline-block;
+    margin:  0 10px;
+    vertical-align: top;
+    position: relative;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue{
+    position: absolute;
+    width: 1100px;
+    height: 610px;
+    right: 0;
+    top: 41px;
+    display: none;
+    border-radius: 0 0 10px 10px;
+    z-index: 10;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.585), 0 -5px 5px rgba(192, 192, 192, 0.585)
+}
+main>div.menu>div.mainMenu>nav>ul>li.first>div.cover{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.544);
+    display: none;
+    position: absolute;
+    right: -25px;
+    top: 40px;
+}
+main>div.menu>div.mainMenu>nav>ul>li.first:hover>div.cover{
+    display: block;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1){
+    width: 18%;
+    height: inherit;
+    border-radius: 0 0 10px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul{
+    width: 100%;
+    height: 100%;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li:nth-last-of-type(1){
+    border-radius: 0 0 10px 0;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li{
+    width: inherit;
+    height: 8.333333%;
+    background-color: rgb(240, 240, 240);
+    padding-right: 10px;
+    cursor: pointer;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>a{
+    color: rgb(73, 73, 73);
+    line-height: 50px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li:hover{
+    background-color: #FFFFFF;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li:hover>a{
+    color: #EF394E;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>a>i{
+    padding-left: 8px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div.always{
+    display: block!important;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div{
+    width: 902px;
+    height: 610px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 198px;
+    top: 0px;
+    border-radius: 0 0 0 10px;
+    display: none;
+    direction: ltr;
+    overflow-y: scroll;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li:hover>div{
+    display: block;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>div>ul>li{
+    padding-right: 20px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>div{
+    height: 45px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>div>ul>li>a{
+    color: rgb(3, 147, 172);
+    line-height: 45px;
+    font-weight: 600;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>div>ul>li>a>i{
+    font-size: 10px;
+    padding-right: 5px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul{
+    width: 24.5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 5px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li>a{
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li:hover>a{
+    color: #EF394E;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li>a.liRightBorder{
+    color: black;
+    font-size: 16px;
+    padding-right: 10px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li:hover>a.liRightBorder{
+    color: #EF394E;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li>a.liRightBorder>i{
+    font-size: 10px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li>div>ul>li>a>i{
+    padding-right: 5px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.submenue>div:nth-of-type(1)>ul>li:hover>div{
+    display: block;
+}
+main>div.menu>div.mainMenu>nav>ul>li:hover>div.submenue{
+    display: block;
+}
+main>div.menu>div.mainMenu>nav>ul>li>div.hoverborder{
+    background-color: #EF394E;
+    height: 2px;
+    width: 0px;
+    transition: 300ms;
+    position: absolute;
+    top: 38px;
+}
+
+
+main>div.menu>div.mainMenu>nav>ul>li:hover>div.hoverborder{
+    width: 100%;
+}
+main>div.menu>div.mainMenu>nav>ul>li>a{
+    color: rgb(41, 41, 41);
+    font-size: 15px;
+    
+}
+main>div.menu>div.mainMenu>nav>ul>li>a>i{
+    margin-left: 5px;
+    color: rgb(178, 178, 178);
+
+}
+main>div.menu>div.mainMenu>nav>ul>li.first{
+    margin:0;
+
+}
+main>div.menu>div.mainMenu>nav>ul>li.first>a{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+main>div.menu>div.mainMenu>nav>ul>li>a.border{
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+.black{
+    color: black!important;
+}
+.liRightBorder{
+    border-right: 2px solid #EF394E;
+}

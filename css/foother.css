@@ -1,0 +1,373 @@
+main>div.foother{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(234, 234, 234);
+}
+main>div.foother>div.top{
+    width: 100%;
+    height: 120px;
+}
+main>div.foother>div.top>div.goBackToTop{
+    display: inline-block;
+    vertical-align: top;
+    width: 148px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+main>div.foother>div.top>div.goBackToTop>a{
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    padding-left: 20px;
+    color: rgb(159, 159, 159);
+    border-radius: 10px; 
+    border: 1px solid rgb(224, 224, 224);   
+}
+main>div.foother>div.top>div.goBackToTop>a>i{
+    font-size: 12px;
+    padding-right: 8px;
+}
+main>div.foother>div.top>div.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 100%;
+    direction: rtl;
+    padding-top: 20px;
+    transform: translateX(880px);
+}
+main>div.foother>div.top>div.logo>div.img{
+    width: 130px;
+    height: 30px;
+}
+main>div.foother>div.top>div.logo>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main>div.foother>div.top>div.logo>div.span{
+    margin-top: 20px;
+}
+main>div.foother>div.top>div.logo>div.span>span{
+    color: rgb(55, 55, 55);
+    font-size: 14px;
+}
+main>div.foother>div.top>div.logo>div.span>span:nth-last-of-type(1){
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+main>div.foother>div.top>div.logo>div.span>span:nth-last-of-type(2){
+    padding-left: 20px;
+
+}
+main>div.foother>div.svg{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    
+}
+main>div.foother>div.svg>div{
+    width: 135px;
+    height: 100%;
+}
+main>div.foother>div.svg>div>div.svg{
+    width: 55px;
+    height: 60px;
+    margin:0 auto;
+    margin-top: 15px;
+}
+main>div.foother>div.svg>div>div.svg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main>div.foother>div.svg>div>div.span{
+    margin: 0 auto;
+    text-align: center;
+}
+main>div.foother>div.svg>div>div.span>span{
+    font-size: 13px;
+}
+main>div.foother>div.deccrip{
+    width: 100%;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+main>div.foother>div.deccrip>div{
+    width: 22%;
+    height: 100%;
+    direction: rtl;
+    padding-top: 20px;
+}
+main>div.foother>div.deccrip>div>div.h3{
+    width: 100%;
+    height: 55px;
+    padding-right: 10px;
+}
+
+main>div.foother>div.deccrip>div>div.h3>h3{
+    padding-top: 10px;
+}
+main>div.foother>div.deccrip>div>div.icon{
+    width: 100%;
+    height: 90px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+main>div.foother>div.deccrip>div>div.icon>i{
+    font-size: 36px;
+    margin-left: 35px;
+    color: rgb(143, 143, 143);
+}
+main>div.foother>div.deccrip>div>div.input{
+    width: 100%;
+    height: 70px;
+    padding-right: 10px;
+    display: flex;
+    padding-top: 2px;
+    gap: 5px;
+    
+}
+main>div.foother>div.deccrip>div>div.input>input{
+    all: unset;
+    background-color: #F0F0F1;
+    width: 260px;
+    height: 55px;
+    border-radius: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: rgb(207, 207, 207);
+
+}
+main>div.foother>div.deccrip>div>div.input>button{
+    all: unset;
+    background-color: #d3d3d3;
+    width: 61px;
+    height: 55px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+main>div.foother>div.deccrip>div>ul{
+    width: 100%;
+    height: auto;
+}
+main>div.foother>div.deccrip>div>ul>li{
+    width: 100%;
+    height: 38px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+main>div.foother>div.deccrip>div>ul>li>a{
+    font-size: 18px;
+    color: gray;
+}
+main>div.foother>div.background{
+    width: 97%;
+    margin: 20px auto;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #3C4B6D;
+    display: flex;
+}
+main>div.foother>div.background>div:nth-of-type(1){
+    
+    flex-grow: 1.25;
+    display: flex;
+    align-items: center;
+    
+}
+main>div.foother>div.background>div:nth-of-type(2){
+    
+    flex-grow: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    
+}
+main>div.foother>div.background>div:nth-of-type(3){
+    
+    flex-grow: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+main>div.foother>div.background>div:nth-of-type(4){
+    
+    flex-grow: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+main>div.foother>div.background>div:nth-of-type(5){
+    
+    flex-grow: 10;
+}
+main>div.foother>div.background>div:nth-of-type(6){
+    
+    flex-grow: 3;
+    text-align: right;
+    padding-top: 15px;
+}
+main>div.foother>div.background>div:nth-of-type(7){
+    
+    flex-grow: 0.5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main>div.foother>div.background>div:nth-of-type(1)>div{
+    background-color: #FFFFFF;
+    width: 46%;
+    height: 62%;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5px;
+
+}
+main>div.foother>div.background>div>div>div.dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(57, 57, 57);
+}
+main>div.foother>div.background>div>div.img{
+    width: 90%;
+    height: 65%;
+    
+}
+main>div.foother>div.background>div>div.img>img{
+    display: block;
+    margin: 0 auto;
+    
+}
+.height{
+    height: 44px!important;
+}
+main>div.foother>div.background>div>div.aks{
+    width: 50px;
+    height: 50px;
+}
+main>div.foother>div.background>div>div.aks>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main>div.foother>div.background>div:nth-of-type(6)>span{
+    color: #FFFFFF;
+    font-size: 28px;
+}
+main>div.foother>div.valid{
+    width: 97%;
+    height: 220px;
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+main>div.foother>div.valid>div.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding-top: 20px;
+    border: 1px solid rgb(228, 228, 228);
+    cursor: pointer;
+}
+main>div.foother>div.valid>div.img>img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+main>div.foother>div.valid>div.par{
+    direction: rtl;
+    width: 1200px;
+    transform: translateX(65px);
+}
+main>div.foother>div.valid>div.par>h3{
+    font-size: 24px;
+    color: rgb(62, 62, 62);
+    margin-bottom: 8px;
+}
+main>div.foother>div.valid>div.par>p{
+    font-size: 14px;
+    color: gray;
+    padding-left: 150px;
+    line-height: 22px;
+}
+main>div.foother>div.valid>div.par>p>a{
+    transform: translateY(40px);
+    display: block;
+    color: rgb(0, 182, 210);
+    font-size: 16px;
+}
+main>div.foother>div.valid>div.par>p>a>i{
+    font-size: 13px;
+}
+main>div.foother>div.copyright{
+    text-align: center;
+    padding: 40px;
+}
+main>div.foother>div.copyright>p{
+    font-size: 13px;
+    color: rgb(137, 137, 137);
+}
+main>div.foother>div.logos{
+    width: 100%;
+    height: 170px;
+    background-color: #F0F0F1;
+}
+main>div.foother>div.logos>div.line{
+    width: 97%;
+    height: 50%;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+main>div.foother>div.logos>div.line:nth-of-type(1)>div.img{
+    height: 100%;
+    width: 12.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main>div.foother>div.logos>div.line:nth-of-type(1)>div.img>img{
+    width: 90%;
+    height: 25%;
+    object-fit: contain;
+}
+.bRight{
+    border-right: 1px solid rgb(210, 210, 210);
+}
+main>div.foother>div.logos>div.line:nth-last-of-type(1)>div.img{
+    height: 100%;
+    width: 14.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main>div.foother>div.logos>div.line:nth-last-of-type(1)>div.img>img{
+    width: 90%;
+    height: 25%;
+    object-fit: contain;
+}

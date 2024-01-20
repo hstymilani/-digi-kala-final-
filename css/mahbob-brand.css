@@ -1,0 +1,75 @@
+main>div.mahbob-brand{
+    width: 79%;
+    height: 240px;
+    margin: 24px auto 0 auto;
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 16px;
+}
+main>div.mahbob-brand>div.h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    
+}
+main>div.mahbob-brand>div.h3>h3{
+    font-weight: 100;
+}
+main>div.mahbob-brand>div.h3>h3>i{
+    font-size: 18px;
+    color: gold;
+}
+main>div.mahbob-brand>div.brandsSlider{
+    direction: rtl;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-top: 10px;
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    padding-top: 10px;
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-wrapper>div.swiper-slide>img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(188, 188, 188);
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-next::after{
+    color: gray;
+    font-size: 14px;
+    font-weight: 900;
+    transition: 300ms;
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-next:hover::after{
+    color: black;
+
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(188, 188, 188);
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-prev::after{
+    color: gray;
+    font-size: 14px;
+    font-weight: 900;
+    transition: 300ms;
+}
+main>div.mahbob-brand>div.brandsSlider>div.swiper>div.swiper-button-prev:hover::after{
+    color: black;
+
+}
+.borderLeft{
+    border-left: 1px solid rgb(231, 228, 228);
+}

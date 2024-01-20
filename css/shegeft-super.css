@@ -1,0 +1,94 @@
+main>div.shegeft-super{
+    width: 78%;
+    height: 110px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 16px;
+    margin: 15px auto 15px auto;
+
+}
+main>div.shegeft-super>div{
+    display: inline-block;
+    vertical-align: top;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+main>div.shegeft-super>div>div.off{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #ef4056;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main>div.shegeft-super>div>div.off>span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+main>div.shegeft-super>div>div.img{
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    
+}
+main>div.shegeft-super>div>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 9px;
+    border-radius: 50%;
+}
+main>div.shegeft-super>div.kala100{
+    all: unset;
+    margin-top: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 145px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 25px ;
+    background-color: #fff;
+    text-align: center;
+}
+main>div.shegeft-super>div.kala100>p{
+    margin-top: 15px;
+    color: #39ae00;
+}
+main>div.shegeft-super>div.kala100>p>i{
+    margin-right: 5px
+}
+main>div.shegeft-super>div.amaze{
+    background-color: transparent;
+    border-radius: unset;
+    direction: rtl;
+    width: 300px;
+    line-height: 72px;
+    font-size: 30px;
+    padding-right: 10px;
+}
+main>div.shegeft-super>div.discount{
+    margin-left: 100px;
+    margin-top: 38px;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #39ae00;
+    text-align: center;
+}
+main>div.shegeft-super>div.discount>span{
+    line-height: 30px;
+    color: whitesmoke;
+    font-size: 18px;
+    
+}
+.trans{
+    background-color: transparent!important;
+}

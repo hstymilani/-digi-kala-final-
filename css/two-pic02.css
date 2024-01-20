@@ -1,0 +1,22 @@
+main>div.two-pic02{
+    width: 85%;
+    height: 265px;
+    margin: 15px auto;
+    border-radius: 16px;  
+    text-align: center;
+    
+}
+main>div.two-pic02>div.img{
+    width: 660px;
+    height: 264px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 6px;
+}
+
+main>div.two-pic02>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}

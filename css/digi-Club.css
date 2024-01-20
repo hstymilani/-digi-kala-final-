@@ -1,0 +1,115 @@
+main>div.digi-Club{
+    width: 79%;
+    height: 88px;
+    border-radius: 16px;
+    background-color: rgb(4, 76, 104);
+    background-image: linear-gradient(to left, rgb(4, 76, 104) , rgb(32, 143, 186));
+    margin: 10px auto 10px auto ;  
+    padding-top: 15px;
+    padding-left: 15px;
+}
+main>div.digi-Club>div{
+    width: 20%;
+    height: 80%;
+    background-color: #fff;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+
+}
+main>div.digi-Club>div>div.prize{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/awards.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+main>div.digi-Club>div.prize>div.span{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+main>div.digi-Club>div.prize>div.span>span{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 60px;
+}
+main>div.digi-Club>div.prize>div.span>span>i{
+    margin-left: 5px;
+    color:rgb(43, 158, 204) ;
+}
+main>div.digi-Club>div>div.mission{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/missions.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main>div.digi-Club>div.mission>div.span{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+main>div.digi-Club>div.mission>div.span>span{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 60px;
+}
+main>div.digi-Club>div.mission>div.span>span>i{
+    margin-left: 5px;
+    color:rgb(43, 158, 204) ;
+}
+main>div.digi-Club>div>div.wheel{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/wheel-spinner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main>div.digi-Club>div.wheel>div.span{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+main>div.digi-Club>div.wheel>div.span>a>span{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 60px;
+    color: black;
+}
+main>div.digi-Club>div.wheel>div.span>a>span>i{
+    margin-left: 2px;
+    color:rgb(43, 158, 204) ;
+}
+main>div.digi-Club>div.logo{
+    border: unset;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: 210px;
+    background-color: transparent;
+}
+main>div.digi-Club>div.logo>img{
+    width: 119px;
+    height: 33px;
+}
+.borderRadiusLeft{
+    border-radius: 15px 0 0 15px;
+}
+.bdRadiusRight{
+    border-radius: 0 15px 15px 0;
+}

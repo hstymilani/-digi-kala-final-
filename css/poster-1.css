@@ -1,0 +1,10 @@
+main>div.poster-1{
+    width: 79%;
+    height: 135px;
+    border-radius: 16px;
+    background-image: url(../img/singlepik.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

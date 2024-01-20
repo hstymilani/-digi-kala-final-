@@ -1,0 +1,147 @@
+main>div.digi-Plus{
+    width: 79%;
+    height: 385px;
+    border-radius: 16px;
+    background-color: #941B80;
+    margin: 0 auto;
+    padding-left:15px ;
+    padding-top: 16px;
+}
+main>div.digi-Plus>div.container01{
+    display: inline-block;
+    vertical-align: top;
+    height: 355px;
+    width: 868px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+main>div.digi-Plus>div.container01>div.span{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+main>div.digi-Plus>div.container01>div.span>span{
+    color: #870e73;
+    font-size: 13px;
+    font-weight: 600;
+}
+main>div.digi-Plus>div.container01>div.span>span>i{
+    font-size: 10px;
+    margin-right: 3px;
+}
+main>div.digi-Plus>div.container01>div.h3{
+    display: inline-block;
+    direction: rtl;
+    vertical-align: top;
+    width: 60%;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 70px;
+}
+main>div.digi-Plus>div.container01>div.h3>h3{
+    color: black;
+}
+main>div.digi-Plus>div.container01>div.h3>h3>i{
+    margin-left: 5px;
+    color: #941B80
+}
+main>div.digi-Plus>div.container01>div.boxImg{
+    width: 100%;
+    height: 294px;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.up{
+    width: 100%;
+    height: 49%;
+    padding-top: 15px;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.up>div.img{
+    width: 115px;
+    height: 116px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    display: inline-block;
+    vertical-align: top;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.up>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.down{
+    width: 100%;
+    height: 49%;
+    padding-top: 15px;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.down>div.img{
+    width: 115px;
+    height: 116px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    display: inline-block;
+    vertical-align: top;
+}
+main>div.digi-Plus>div.container01>div.boxImg>div.down>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main>div.digi-Plus>div.container02{
+    display: inline-block;
+    height: 355px;
+    width: 390px;
+    margin-left:20px ;
+}
+main>div.digi-Plus>div.container02>div.icon{
+    width: 128px;
+    height: 32.5px;
+    padding-left: 265px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+main>div.digi-Plus>div.container02>div.service{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 8px;
+}
+main>div.digi-Plus>div.container02>div.service>div.span{
+    direction: rtl;
+    color: #ffffff;
+    padding-left: 10px;
+}
+main>div.digi-Plus>div.container02>div.service>div.span>span{
+    line-height: 30px;
+}
+main>div.digi-Plus>div.container02>div.background{
+    width: 100%;
+    height: 262px;
+    background-image: url(../img/dgPlus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+main>div.digi-Plus>div.container02>div.background>div.signIn{
+    width: 105px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin-left: 285px;
+    cursor: pointer;
+}
+main>div.digi-Plus>div.container02>div.background>div.signIn>span{
+    line-height: 38px;
+    color: #ffffff;
+
+}
+main>div.digi-Plus>div.container02>div.background>div.signIn>span>i{
+    margin-right: 5px;
+}
+
+
+
